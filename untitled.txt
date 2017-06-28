@@ -1,0 +1,27 @@
+This is how I learned git at the bigining:
+1- open bash or write bash in Ipython
+2-first check the list ls : what we have in our directory
+3-make a new directory : mkdir projects
+4- going to my directory : cd projects
+5- make new directory inside my directory: mkdir git_practice
+5-create a file in new directory : touch readme.md
+6-initializing new repository : git init
+7-check the status : git status
+8-add new fil : git add filename.filetype 
+                git add untiteled4.ipynb
+9- check the status again ( we sould see both files in our git directory : git status
+10-if we have any untrack fie , we need to add that too 
+    git add ...
+    git status
+11-from this part we need to check our git.hum account and check our repository and follow the direction
+    11-1-git remote add origin https://.....
+    11-2-git push -u origin master
+12- to check active branche : git branch 
+    the green with start one is the active branch
+13-create new branch
+    git branch new_branch_name
+14- switch to new branch 
+    git checkout new_branch_name
+15-git commit -am"your commit message"
+16-git push
+
